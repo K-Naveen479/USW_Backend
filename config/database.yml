@@ -107,6 +107,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: usw_backend_production
   username: "usw_backend"
   password: <%= ENV["USW_BACKEND_DATABASE_PASSWORD"] %>
