@@ -1,4 +1,4 @@
-# USW_Backedn
+# USW_Backend
 
 ## Overview
 This project is a backend developed using Ruby, aimed at monitoring student registrations.
